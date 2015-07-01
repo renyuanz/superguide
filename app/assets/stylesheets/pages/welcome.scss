@@ -31,7 +31,7 @@
 }
 
 #home-banner {
-  background: $sg-dark image-url("welcome-banner-bg.jpg") no-repeat scroll bottom center;
+  background: $sg-dark asset-data-url("welcome-banner-bg.jpg") no-repeat scroll bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -49,7 +49,7 @@
 
 #featured-activities {
   height: 80%;
-  background: $sg-light image-url("activity-1.jpg") no-repeat scroll top center;
+  background: $sg-light asset-data-url("activity-1.jpg") no-repeat scroll top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
