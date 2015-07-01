@@ -1,0 +1,67 @@
+/* ------------------------ */
+/*       Welcome page       */
+/* ------------------------ */
+
+
+/* Welcome banner */
+
+.welcome-banner {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: $sg-light;
+
+  .welcome-banner-body {
+    display: table-cell;
+    vertical-align: middle;
+
+    .brand-heading {
+      font-size: 40px;
+      text-shadow: 1px 1px 2px $sg-dark;
+    }
+
+    .brand-subheading {
+      font-size: 18px;
+      letter-spacing: 20px;
+      text-shadow: 1px 1px 2px $sg-dark;
+    }
+  }
+}
+
+#home-banner {
+  background: $sg-dark url(welcome-banner-bg.jpg) no-repeat scroll bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-top: -50px;
+}
+
+/* Featured guides section */
+
+.content-section {
+  padding: 200px 0;
+}
+
+/* Activities section */
+
+#featured-activities {
+  height: 80%;
+  background: $sg-light url(activity-1.jpg) no-repeat scroll top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+
+  .activity-desc {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    font-size: 24px;
+  }
+}

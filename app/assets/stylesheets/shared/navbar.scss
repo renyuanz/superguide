@@ -1,0 +1,46 @@
+/* ------------------------ */
+/*          Navbar          */
+/* ------------------------ */
+
+.navbar-custom {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: $sg-head-font-family;
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+
+
+  .nav-brand {
+    font-weight: 700;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  a {
+    color: $sg-light;
+  }
+
+  .nav {
+    li {
+      &.active {
+        outline: none;
+        background-color: transparentize($sg-light, 0.7);
+      }
+
+      a {
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+
+        &:hover,
+        &:focus,
+        &.active {
+          outline: none;
+          background-color: transparentize($sg-light, 0.7);
+        }
+      }
+    }
+  }
+}
